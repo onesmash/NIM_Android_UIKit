@@ -94,4 +94,8 @@ dependencies {
 
     implementation 'com.github.chrisbanes:PhotoView:2.3.0'
     //api 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1' // if you want to use the Glide GPU Filters
+    implementation 'com.netease.nimlib:basesdk:+'
+    implementation 'com.netease.nimlib:chatroom:+'
+    implementation 'com.netease.nimlib:lucene:+'
+    implementation 'com.netease.nimlib:superteam:+'
 }
