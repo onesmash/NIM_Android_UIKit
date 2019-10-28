@@ -98,4 +98,5 @@ dependencies {
     implementation 'com.netease.nimlib:chatroom:+'
     implementation 'com.netease.nimlib:lucene:+'
     implementation 'com.netease.nimlib:superteam:+'
+    implementation 'com.netease.nimlib:basesdk:+'
 }
