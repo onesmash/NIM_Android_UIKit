@@ -71,6 +71,12 @@ android {
     }
 }
 
+repositories {
+    mavenLocal()
+    google()
+    jcenter()
+}
+
 dependencies {
     api fileTree(dir: 'libs', include: '*.jar')
     api("androidx.appcompat:appcompat:${safeExtGet('androidxAppcompat', DEFAULT_ANDROIDX_APPCOMPAT_VERSION)}")
