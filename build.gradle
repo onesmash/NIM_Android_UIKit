@@ -99,5 +99,5 @@ dependencies {
     implementation 'com.netease.nimlib:lucene:+'
     implementation 'com.netease.nimlib:superteam:+'
     implementation 'com.netease.nimlib:basesdk:+'
-    implementation 'com.alibaba:fastjson:1.1.72.android'
+    implementation 'com.alibaba:fastjson:1.1.71.android'
 }
