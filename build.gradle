@@ -79,16 +79,16 @@ repositories {
 }
 
 dependencies {
-    api fileTree(dir: 'libs', include: '*.jar')
-    api("androidx.appcompat:appcompat:${safeExtGet('androidxAppcompat', DEFAULT_ANDROIDX_APPCOMPAT_VERSION)}")
-    api("androidx.legacy:legacy-support-v4:${safeExtGet('androidxLegacy', DEFAULT_LEGACY_X_VERSION)}")
-    api("com.google.android.material:material:${safeExtGet('androidMaterial', DEFAULT_MATERIAL_GOOGLE_VERSION)}")
-    api("androidx.constraintlayout:constraintlayout:${safeExtGet('constraintlayout', DEFAULT_CONSTRAINT_X_VERSION)}")
+    implementation fileTree(dir: 'libs', include: '*.jar')
+    implementation("androidx.appcompat:appcompat:${safeExtGet('androidxAppcompat', DEFAULT_ANDROIDX_APPCOMPAT_VERSION)}")
+    implementation("androidx.legacy:legacy-support-v4:${safeExtGet('androidxLegacy', DEFAULT_LEGACY_X_VERSION)}")
+    implementation("com.google.android.material:material:${safeExtGet('androidMaterial', DEFAULT_MATERIAL_GOOGLE_VERSION)}")
+    implementation("androidx.constraintlayout:constraintlayout:${safeExtGet('constraintlayout', DEFAULT_CONSTRAINT_X_VERSION)}")
 
 //    api 'me.everything:overscroll-decor-android:1.0.4'
-    api "me.leolin:ShortcutBadger:1.1.22@aar"
+    implementation "me.leolin:ShortcutBadger:1.1.22@aar"
 
-    api 'com.github.bumptech.glide:glide:4.9.0'
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
     //api 'jp.wasabeef:glide-transformations:3.0.1'
 
