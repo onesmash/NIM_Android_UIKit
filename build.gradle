@@ -13,12 +13,15 @@ buildscript {
         }
         dependencies {
             classpath 'com.android.tools.build:gradle:3.4.1'
+            classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
         }
     }
 }
 
 apply plugin: 'com.android.library'
 apply plugin: 'maven'
+apply plugin: 'com.github.dcendents.android-maven' 
+group='com.github.onesmash' 
 
 def DEFAULT_COMPILE_SDK_VERSION = 28
 def DEFAULT_BUILD_TOOLS_VERSION = "28.0.3"
